@@ -180,7 +180,7 @@ sleep 1
 echo ""
 echo "###########################"
 echo "Liaisons BDD BAREOS <=> PSQL"
-su postgres -c /usr/lib/bareos/scripts/create_bareos_databese
+su postgres -c /usr/lib/bareos/scripts/create_bareos_database
 su postgres -c /usr/lib/bareos/scripts/make_bareos_tables
 su postgres -c /usr/lib/bareos/scripts/grant_bareos_privileges
 sleep 1
