@@ -10,7 +10,7 @@
 ###Auteurs & version###
 #
 # Bareos (docs.bareos.org)
-#
+# Elias CHAABANE
 ###Licence###
 #
 #WTFPL : https://fr.wikipedia.org/wiki/WTFPL
