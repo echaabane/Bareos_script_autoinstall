@@ -10,7 +10,6 @@
 ###Auteurs & version###
 #
 # Bareos (docs.bareos.org)
-# Jérémy BAGES et Fred https://memo-linux.com V-2022.08.02
 #
 ###Licence###
 #
