@@ -194,14 +194,6 @@ sleep 1
 
 echo ""
 echo "###########################"
-echo "Installation d'Adminer"
-apt install php$PHP-pgsql -y
-wget -O /var/www/html/adminer.php https://www.adminer.org/latest.php
-chown -R www-data:www-data /var/www/html
-sleep 1
-
-echo ""
-echo "###########################"
 echo "Redémarrage du service Apache2"
 systemctl restart apache2
 
