@@ -1,32 +1,10 @@
 #!/bin/bash
-
-#----------------------------------------README.me-----------------------------------------------------------------------------#
-### DESCRIPTION ###
-#
-# Script d'installation guidée et simplifiée de la solution Bareos sur un serveur Debian 11 (uniquement).
-# Merci de verifier les versions de bareos disponibles en fonction de cette distribution:
-# https://download.bareos.org/bareos/release/Debian_11
-#
-###Auteurs & version###
-#
-# Bareos (docs.bareos.org)
-# Elias CHAABANE
-###Licence###
-#
-#WTFPL : https://fr.wikipedia.org/wiki/WTFPL
-#
 #----------------------------------------------PARAMETRES PAR DEFAUT-------------------------------------------------------------#
-
-# ATTENTION : Ces parametres sont reglés par defaut pour une installation sur Debian_11 utilisant PHP7.4 et la derniere version en date de Bareos (v.21)
-# Toutes modifications de ce script est à vos risques et périls.
-
 RELEASE=release/21
 
 PHP=7.4
 
 URL=https://download.bareos.org/bareos/$RELEASE/Debian_11
-
-
 #-------------------------------------------------DEBUT DU SCRIPT----------------------------------------------------------------#
 
 # Installation de whiptail pour l'installation via box
@@ -241,7 +219,7 @@ echo "Installation terminée"
 echo ""
 echo "##########################################################"
 echo ""
-echo "Vous pouvez accédez à la console Bareos Web-UI via cette adresse :  http://$IPFINALE/bareos-webui"
+echo "Vous pouvez accéder à la console Bareos Web-UI via cette adresse :  http://$IPFINALE/bareos-webui"
 echo ""
 echo ""
 echo "##########################################################"
