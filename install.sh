@@ -234,7 +234,7 @@ sleep 1
 
 # Message de fin & résumé
 IPFINALE=$(hostname -i)
-whiptail --title "Rapport" --msgbox "Bareos est désormais installé sur votre système. \n \nVous pouvez accédez à la console Bareos Web-UI via cette adresse :  http://$IPFINALE/bareos-webui \n \nVous pouvez accédez à la gestion de la base de données via cette adresse : http://$IPFINALE/adminer.php" 0 0
+whiptail --title "Rapport" --msgbox "Bareos est désormais installé sur votre système. \n \nVous pouvez accédez à la console Bareos Web-UI via cette adresse :  http://$IPFINALE/bareos-webui \n \n" 0 0
 
 echo ""
 echo "Installation terminée"
